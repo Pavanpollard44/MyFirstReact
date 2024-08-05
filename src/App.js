@@ -27,6 +27,7 @@ const App = () => {
 },[monsters,searchField]);
   return (
     <div className="App">
+      <h1>My Restart React</h1>
       <SearchBox onChangeHandler={onSearchChange} placeHolder="Search monsters" className='search-box'/> 
       <CardList monsters={filteredMonsters} />
     </div>
